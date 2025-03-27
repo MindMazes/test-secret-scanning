@@ -1,4 +1,6 @@
-// Get TDX Token
+# Get TDX Token
+import requests
+
 def test_api():
   customer = "test"
   url = f"https://{customer}.teamdynamix.com/TDWebApi/api/auth/login"
