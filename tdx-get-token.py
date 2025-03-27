@@ -3,7 +3,7 @@ customer = "test"
 url = f"https://{customer}.teamdynamix.com/TDWebApi/api/auth/login"
 data = {
   "username": "christian",
-  "password": "password123"
+  "azure_sql_password": "password123"
 }
 headers = {
   'Content-Type': 'application/json'
