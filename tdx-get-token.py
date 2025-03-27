@@ -6,7 +6,7 @@ def test_api():
   url = f"https://{customer}.teamdynamix.com/TDWebApi/api/auth/login"
   data = {
     "username": "christian",
-    "password": "password1234"
+    "password": "password123"
   }
   headers = {
     'Content-Type': 'application/json'
